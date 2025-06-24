@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.quote-box {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+/* Reset + Body Style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Cool gradient */
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container */
+.container {
+    background: rgba(177, 142, 154, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px 30px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Quote Box */
+.quote-box {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.quote-box span {
+    font-weight: 600;
+}
+
+.quote-box em {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ffd700; /* Gold-ish for author */
+}
+
+/* Button */
+button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    background: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+/* Dark mode styles */
+body.dark {
+    background: #121212;
+    color: #f0f0f0;
+}
+
+body.dark .container {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+body.dark button {
+    background: #444;
+}
+
+body.dark button:hover {
+    background: #333;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+    .quote-box {
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
+/* Dark mode styles */
+body.dark {
+    background: #121212;
+    color: #f0f0f0;
+}
+
+body.dark .container {
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+}
+
+body.dark button {
+    background: #444;
+}
+
+body.dark button:hover {
+    background: #333;
+}
+@media (max-width: 600px) {
+    .quote-box {
+        font-size: 1.2em;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
